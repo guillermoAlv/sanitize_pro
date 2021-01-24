@@ -1,0 +1,19 @@
+.buttonContainer {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+.backButton:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.forwardButton:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  height: auto;
+}

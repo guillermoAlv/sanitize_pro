@@ -1,0 +1,34 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.5);
+  min-width: 0;
+  min-height: 0;
+  border-radius: 10px;
+}
+.box___66AMy {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.box__p2NxA {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.slotChildren {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}

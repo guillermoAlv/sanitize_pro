@@ -1,0 +1,24 @@
+.forwardButton {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  min-height: 0;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.forwardButton:hover .img {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
