@@ -40,7 +40,7 @@ function FieldContainer({contenido, icon, ...props}: FieldContainerProps) {
   //
   // By default, we are just piping all FieldContainerProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicFieldContainer contenido={contenido} iconBox={<img style={{width: "80px", height: "80px"}} src={icon}/>} {...props} />;
+  return <PlasmicFieldContainer contenido={contenido} iconBox={<img alt="eventos" style={{width: "80px", height: "80px"}} src={icon}/>} {...props} />;
 }
 
 export default FieldContainer;

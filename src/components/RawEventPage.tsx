@@ -62,7 +62,7 @@ function RawEventPage({event, backF, nextF, ...props}: RawEventPageProps) {
   // By default, we are just piping all RawEventPageProps here, but feel free
   // to do whatever works for you.
   return <PlasmicRawEventPage 
-    titleFieldContainer={<FieldContainer icon={titleIconpng} contenido={<h3> <a target="_blank" href={event['url_fuente']}> {event['nombre_actividad']}</a></h3>}/>} 
+    titleFieldContainer={<FieldContainer icon={titleIconpng} contenido={<h3> <a target="_blank" rel="noreferrer" href={event['url_fuente']}> {event['nombre_actividad']}</a></h3>}/>} 
     descriptionFieldContainer={<FieldContainer icon={descriptionIconpng} contenido={event['descripcion_actividad']}/>}
     categoriesFieldContainer={<FieldContainer icon={categoryIconpng} contenido={event['categorias']}/>}
     pricesFieldContainer={<FieldContainer icon={pricesIconpng} contenido={<div>Precio mínimo: {event['precio_max']/100} €<br/>Precio máximo: {event['precio_max']/100} €</div>}/>} 
